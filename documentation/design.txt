@@ -1,0 +1,23 @@
+Configuration
+- Environment type
+- System packages
+- Packaged dependencies
+- Executable build configuration
+
+Environment
+- Architecture: 32-bit or 64-bit?
+- Distribution, Debian/Ubuntu & version
+
+System packages
+- Packages to be installed via apt
+- Assumed to be required on deployment systems
+
+Packaged dependencies
+- Libraries to be compiled and installed for this executable
+- May include extra configuration options
+- Includes list of extra dependencies, which may be included either here
+  or as system packages
+
+Executable build configuration
+- Shell script or whatever to compile the executable
+
